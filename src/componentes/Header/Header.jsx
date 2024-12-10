@@ -7,11 +7,11 @@ export default function Header() {
   return (
     <BrowserRouter>
       <header className={s.Header}>
-        <section className={s.logoHeader}>
+        <section className={s.LogoHeader}>
           <img src={livro} />
           <h1>Livros Vai na Web</h1>
         </section>
-        <nav className={s.Header}>
+        <nav className={s.NavHeader}>
           <ul>
             <li>
               <Link className={s.link} to="/">
@@ -42,11 +42,6 @@ export default function Header() {
           </button>
         </section>
       </header>
-      <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="Livrosdoados" element={<Livrosdoados />} />
-        <Route path="querodoar" element={<Querodoar />} />
-      </Routes>
     </BrowserRouter>
   );
 }
