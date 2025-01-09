@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import livro from '../../assets/Livro.png';
 import lupa from '../../assets/lupa.png';
 import s from './Header.module.scss';
+import Inicio from '../../Pages/inicio/Inicio';
 
 export default function Header() {
   return (
@@ -30,7 +31,8 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <section className={s.barradebusca}>
+        <section className={s.barraDeBusca}>
+
           <input
             type="search"
             name=""
@@ -42,6 +44,10 @@ export default function Header() {
           </button>
         </section>
       </header>
+      
+      <Routes>
+        <Route path='/' element={<Inicio />} />
+      </Routes>
     </BrowserRouter>
   );
 }

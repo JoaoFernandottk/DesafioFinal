@@ -4,7 +4,8 @@ import './GlobalStyle/GlobalStyle.scss';
 export default function App() { ;
   return (
     <section>
-      <Header />
+      <Header/>
+      
     </section>
   );
 }

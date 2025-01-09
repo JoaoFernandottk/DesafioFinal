@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   height: 20vh;
+  width: 100%;
 }
 
 .LogoHeader {
@@ -27,8 +28,8 @@
 
   ul {
     display: flex;
-    align-items: center;
     list-style: none;
+    justify-content: space-between;
   }
 
   .link {
@@ -38,7 +39,7 @@
   }
 }
 
-.BarraDeBusca {
+.barraDeBusca {
   border: solid #fff;
   border-radius: 20px;
   margin-right: 1%;
@@ -57,12 +58,14 @@
     &::placeholder {
       color: #fff;
       font-size: 20px;
+
     }
   }
 
   button {
     background-color: transparent;
-    border: none;
-    cursor: pointer;
+      cursor: pointer;
+      border: none;
   }
+
 }
