@@ -9,18 +9,22 @@ import Conexao from '../../assets/Conexao.png';
 
 export default function Inicio() {
     return(
-        
+    
         <body>
         <section className= {ss.Section1}>
           <img src={bg}/>
-          <article>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</article>
+          <article className={ss.Articles1}>
+            
+            <h1>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h1>
+            
+            </article>
         </section>
 
         <section className={ss.Section2}>
+
             
-            <div> 
                 <h1>POR QUÊ DEVO DOAR?</h1>
-            </div>
+        
 
             <article className={ss.Article}>
                 <img src={reuniao} alt="" />
