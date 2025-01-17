@@ -44,14 +44,17 @@
     justify-content: space-around;
     font-size: 22px;
 
-    h1 {position: absolute;
+    h1 {
+        position: absolute;
         padding-top: 70px;
         color: #005695;
-        padding-left: 124px;
+        padding-right: 900px;
+        
         
     }
 
 .Article {
+    position: relative;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -61,6 +64,7 @@
     border: solid black;
     text-align: center;
     padding-top: 200px;
+
     
 
 }

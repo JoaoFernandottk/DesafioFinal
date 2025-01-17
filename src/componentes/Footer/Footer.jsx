@@ -12,11 +12,31 @@ export default function Footer() {
 
         <footer>
 
-        <h1>4002-8922</h1>
-
         <article>
-            
+        <h1>4002-8922</h1>
         </article>
+
+
+        <figure>
+            <img src={facebook} alt="" />
+        </figure>
+
+        <figure>
+            <img src={x} alt="" />
+        </figure>        
+
+        <figure>
+            <img src={ytb} alt="" />
+        </figure>
+
+        <figure>
+            <img src={linkedn} alt="" />
+        </figure>
+
+        <figure>
+            <img src={instagram} alt="" />
+        </figure>
+
 
         
 

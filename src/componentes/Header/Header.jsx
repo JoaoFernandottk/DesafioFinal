@@ -3,6 +3,8 @@ import livro from '../../assets/Livro.png';
 import lupa from '../../assets/lupa.png';
 import s from './Header.module.scss';
 import Inicio from '../../Pages/inicio/Inicio';
+import LivrosDoados from '../../Pages/LivrosDoados/LivrosDoados';
+import QueroDoar from '../../Pages/QueroDoar/QueroDoar'
 
 export default function Header() {
   return (
@@ -47,6 +49,9 @@ export default function Header() {
       
       <Routes>
         <Route path='/' element={<Inicio />} />
+        <Route path='livrosdoados' element={<LivrosDoados />} />
+        <Route path='querodoar' element={<QueroDoar />} />
+      
       </Routes>
     </BrowserRouter>
   );
